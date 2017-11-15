@@ -1,5 +1,5 @@
 # anybase2anybase
-Below are three Python functions to convert a given number from one number base to another base
+Given below are three Python functions to convert a given number from one number base to another base
 
 def base10_to_anybase(nbr, to_base):
     
