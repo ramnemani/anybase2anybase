@@ -2,7 +2,6 @@
 Given below are three Python functions to convert a given number from one number base to another base
 
 def base10_to_anybase(nbr, to_base):
-    
     assert type(nbr) is int, "The first argument should be Integer"
     assert type(to_base) is int, "The second argument should be Integer"
 
@@ -37,7 +36,6 @@ def base10_to_anybase(nbr, to_base):
     return s
 
 def anybase_tobase10(nbrstr, from_base):
-
     assert type(nbrstr) is str, "The first argument should be string"
     assert type(from_base) is int, "The second argument should be Integer"
 
@@ -70,7 +68,6 @@ def anybase_tobase10(nbrstr, from_base):
     return sum(lc)
 
 def anybase_to_anybase(nbrstr, from_base, to_base):
-
     assert type(nbrstr) is str, "The first argument should be string"
     assert type(from_base) is int, "The second argument should be Integer"
     assert type(to_base) is int, "The third argument should be Integer"
