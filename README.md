@@ -1,7 +1,6 @@
 # anybase2anybase
-Attached are three Python functions to convert a given number from one number base to another base
+The python file anybase2anybase.py has three Python functions to convert a given number from one number base to another base.
 
- 
 ## Example usage
 ## Below example converts from base10 to base62
 ##
